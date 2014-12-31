@@ -1,0 +1,40 @@
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+@import "fonts";
+@import "colors";
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    background-color: $background-color;
+    color: white;
+
+    font-family: 'gotham_mediumregular';
+}
+
+.navbar.navbar-inverse {
+
+    background-image: none;
+    background-color: $background-color;
+    border: none;
+
+    .navbar-brand {
+        width: 225px;
+        height: inherit;
+    }
+
+    .nav.navbar-nav.navbar-right {
+
+        padding-top: 10px;
+
+        li a {
+        	color: $inactive-color;
+
+        	&.active, &:hover {
+        		color: $fore-color;
+        	}
+        }
+    }
+}
