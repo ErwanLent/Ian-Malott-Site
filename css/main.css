@@ -11,8 +11,7 @@ Author's custom styles
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: #333332;
-  color: white;
+  background-color: white;
   font-family: 'gotham_mediumregular'; }
 
 .navbar.navbar-inverse {

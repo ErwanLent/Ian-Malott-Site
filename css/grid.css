@@ -8,9 +8,8 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	margin: 0 -2px;
 	vertical-align: top;
-	height: 250px;
 }
 
 .og-grid li > a,
@@ -19,6 +18,7 @@
 	outline: none;
 	display: block;
 	position: relative;
+	height: 200px;
 }
 
 .og-grid li.og-expanded > a::after {
