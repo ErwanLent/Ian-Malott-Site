@@ -8,11 +8,17 @@ Author's custom styles
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'gotham_thinregular';
+  src: url("/fonts/gotham-thin-webfont.eot");
+  src: url("/fonts/gotham-thin-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-thin-webfont.woff2") format("woff2"), url("/fonts/gotham-thin-webfont.woff") format("woff"), url("/fonts/gotham-thin-webfont.ttf") format("truetype"), url("/fonts/gotham-thin-webfont.svg#gotham_thinregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
+  font-family: 'gotham_mediumregular';
   padding-top: 50px;
-  padding-bottom: 20px;
-  background-color: white;
-  font-family: 'gotham_mediumregular'; }
+  background-color: white; }
 
 .navbar.navbar-inverse {
   background-image: none;
@@ -27,3 +33,22 @@ body {
       color: #8c8c8c; }
       .navbar.navbar-inverse .nav.navbar-nav.navbar-right li a.active, .navbar.navbar-inverse .nav.navbar-nav.navbar-right li a:hover {
         color: white; }
+
+.og-grid {
+  padding: 0; }
+  .og-grid .og-expander {
+    background-color: #333332; }
+    .og-grid .og-expander .og-details h3 {
+      color: white; }
+    .og-grid .og-expander .og-details p {
+      color: white;
+      font-family: 'gotham_thinregular';
+      font-size: 18px; }
+
+footer {
+  font-family: 'gotham_thinregular';
+  font-size: 14px;
+  background-color: #333332;
+  color: white;
+  width: 100%;
+  padding: 45px 100px; }

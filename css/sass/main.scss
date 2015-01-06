@@ -5,12 +5,9 @@ Author's custom styles
 @import "colors";
 
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-
-    background-color: $fore-color;
-
     font-family: 'gotham_mediumregular';
+    padding-top: 50px;
+    background-color: $fore-color;
 }
 
 .navbar.navbar-inverse {
@@ -36,4 +33,33 @@ body {
         	}
         }
     }
+}
+
+.og-grid {
+	padding: 0;
+
+	.og-expander {
+		background-color: $background-color;
+
+		.og-details h3 {
+			color: $fore-color;
+		}
+
+		.og-details p {
+			color: $fore-color;
+			font-family: 'gotham_thinregular';
+			font-size: 18px;
+		}
+	}
+}
+
+footer {
+	font-family: 'gotham_thinregular';
+	font-size: 14px;
+
+	background-color: $background-color;
+	color: $fore-color;
+
+	width: 100%;
+	padding: 45px 100px;
 }
