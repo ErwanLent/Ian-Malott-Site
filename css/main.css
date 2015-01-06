@@ -20,6 +20,18 @@ body {
   padding-top: 50px;
   background-color: white; }
 
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  overflow: hidden;
+  background-color: #333332;
+  top: 0; }
+  .preloader svg {
+    width: 100%;
+    margin: auto; }
+
 .navbar.navbar-inverse {
   background-image: none;
   background-color: #333332;

@@ -10,6 +10,21 @@ body {
     background-color: $fore-color;
 }
 
+.preloader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1050;
+	overflow: hidden;
+	background-color: $background-color;
+	top: 0;
+
+	svg {
+		width: 100%;
+		margin: auto;
+	}
+}
+
 .navbar.navbar-inverse {
 
     background-image: none;
